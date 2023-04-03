@@ -4,6 +4,11 @@ import java.io.*;
 https://coderbyte.com/editor/Min%20Window%20Substring:Java
 */
 class MinWindowSubstr {
+  
+  public static void main (String[] args) {
+        System.out.println(MinWindowSubstring(new String[]{"ahffaksfajeeubsne", "jefaa"}));
+        System.out.println(MinWindowSubstring(new String[]{"aaffhkksemckelloe", "fhea"}));
+  }
 
   public static String MinWindowSubstring(String[] strArr) {
         char[] kChArr = strArr[1].toCharArray();
@@ -49,12 +54,6 @@ class MinWindowSubstr {
         }
 
         return result;
-  }
-
-  public static void main (String[] args) {  
-    // keep this function call here     
-    Scanner s = new Scanner(System.in);
-    System.out.print(MinWindowSubstring(s.nextLine())); 
   }
 
 }
